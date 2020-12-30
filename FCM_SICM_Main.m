@@ -64,13 +64,14 @@ difference = 20 * abs(all_pixel - all_pixel_bi) + eps;
 U = rand(N, cluster_num);
 U_col_sum = sum(U, 2);
 U = U ./ repmat(U_col_sum, [1 cluster_num]);
+U_m = U .^ m;
 % Constraint alpha for conventional FCM
 alpha = 1 ./ difference;
 % Constraint beta for local information
 beta = difference;
 %% FCM Clustering
 for iter = 1 : max_iter
-    U_m = U .^ m;
+    U_m = repmat(U_m, [1 1 depth]);
     % Update cluster centers by Eq. (25)
     center = sum(U_m .* (alpha .* all_pixel + beta .* all_pixel_bi)) ./ sum(U_m .* (alpha + beta));
     % Compute similarity
