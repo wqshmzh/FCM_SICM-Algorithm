@@ -57,7 +57,7 @@ end
 %% Pixel reshaping
 all_pixel = repmat(reshape(f, N, 1, depth), [1 cluster_num 1]);
 all_pixel_bi = repmat(reshape(f_bilateral, N, 1, depth), [1 cluster_num 1]);
-%% Acquire difference ¡÷I
+%% Acquire difference
 difference = 20 * abs(all_pixel - all_pixel_bi) + eps;
 %% Clustering initialization
 % Randomly initialize membership degrees
