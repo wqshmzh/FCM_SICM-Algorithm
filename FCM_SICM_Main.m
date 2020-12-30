@@ -1,7 +1,7 @@
 %% BEST RUN WITH MATLAB R2018b!
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Robust Fuzzy C-Means Clustering Algorithm with Adaptive Spatial & Intensity Constraint and Membership Linking for Noise Image Segmentation
-% Applied Soft Computing Journal 92 (2020) 106318
+% Applied Soft Computing 92 (2020) 106318
 % DOI: https://doi.org/10.1016/j.asoc.2020.106318
 % Please kindly cite this paper as you like.
 %
