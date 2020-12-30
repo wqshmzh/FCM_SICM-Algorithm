@@ -5,8 +5,7 @@
 % DOI: https://doi.org/10.1016/j.asoc.2020.106318
 % Please kindly cite this paper as you like.
 %
-% This code was solely written by Qingsheng Wang in October, 2019.
-% At Lanzhou Jiaotong University, Lanzhou, China
+% This code was solely written by Qingsheng Wang at Lanzhou Jiaotong University, Lanzhou, China.
 %
 %% Basically, you can run this code SEVERAL times to acquire the most desired result.
 %% It is welcomed to change the following parameters as you like to see what gonna happen.
@@ -58,7 +57,7 @@ end
 %% Pixel reshaping
 all_pixel = repmat(reshape(f, N, 1, depth), [1 cluster_num 1]);
 all_pixel_bi = repmat(reshape(f_bilateral, N, 1, depth), [1 cluster_num 1]);
-%% Acquire difference ¡÷I
+%% Acquire difference Â¡Ã·I
 difference = 20 * abs(all_pixel - all_pixel_bi) + eps;
 %% Clustering initialization
 % Randomly initialize membership degrees
