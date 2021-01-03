@@ -5,7 +5,7 @@
 % DOI: https://doi.org/10.1016/j.asoc.2020.106318
 % Please kindly cite this paper as you like.
 %
-% This code was solely written by Qingsheng Wang at Lanzhou Jiaotong University, Lanzhou, China.
+% This code was solely written by Qingsheng Wang.
 %
 %% Basically, you can run this code SEVERAL times to acquire the most desired result.
 %% It is welcomed to change the following parameters as you like to see what gonna happen.
